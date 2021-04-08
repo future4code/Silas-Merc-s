@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style/funcionarios-style.css" media="all" />
-    <title>Funcionários</title>
+    <link rel="stylesheet" type="text/css" href="style/pag-vendas.css" media="all" />
+    <title>Vendas</title>
 </head>
 <body>
     <div id="container">
@@ -24,11 +24,27 @@
 
     <div id="main">
 
-        <h2>Funcionários</h2>
+        <h2>Adicionar Venda </h2>
+        <br>
+        <br>
+        <form action="#">
+            <label for="#add-prod">Adicione Aqui:</label><br>
+            <input type="text" id="add-prod" name="produtos"><br>
+
+            <br>
+            <h5>Forma de pagamento:</h5>
+            <input type="radio" id="credcard" name="pag" value="Cartão de Crédito">
+            <label for="credcard">Cartão de crédito</label><br>
+            <input type="radio" id="money" name="pag" value="Dinheiro">
+            <label for="money">Dinheiro</label><br>
+              
+        </form>
+        <br>
+        <h5>Produtos Cadastrados:</h5>
         <ul>
-            <li>Joab</li>
-            <li>Mark</li>
-            <li>Diogo</li>
+            <li>Vinho</li>
+            <li>Café</li>
+            <li>Petisco</li>
             <li>Sam</li>
         </ul>
     </div>

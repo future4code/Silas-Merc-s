@@ -1,0 +1,69 @@
+@import url("nav-style.css");
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+    min-width: 60vw;
+    margin: 0vw 10vw 0vw 10vw;
+    padding-left: 10vw;
+}
+#header{
+    width: 60vw;
+    min-height: 10vh;
+}
+#nav{
+    height: 5vh;
+}
+#main{
+    margin-top: 30px;
+    padding:5px;
+    max-width: 40vw;
+    min-height: 65vh;
+}
+#footer{
+    margin-top: 30px;
+    width: 20em;
+    margin-left: 5em;
+}
+/*Estilizando a tabela (lista de histórico de vendas) */
+table{
+    width: 48vw;
+    background-color: rgb(252, 252, 252);
+    border-radius: 14px;
+
+
+}
+
+tr{
+    border-radius: 14px;
+}
+
+th{
+    padding: 1em;
+    background-color: rgb(140, 255, 90);
+    border-radius: 14px;
+
+}
+td{
+    padding: 1.1em;
+    background-color: rgb(242, 242, 242);
+    border-radius: 14px;
+
+}
+
+caption{
+    font-size: 1.2em;
+}
+
+/*-------------------------------------------------- -*/
+/*Estilizando o input data) */
+input[type="date"]{
+    padding: 6px;
+    border-width: 0;
+    border-radius: 14px;
+    background-color: rgb(140, 255, 90);
+
+}
+
+/*-------------------------------------------------- -*/

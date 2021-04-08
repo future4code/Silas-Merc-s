@@ -6,9 +6,9 @@
     min-width: 60vw;
     margin: 0vw 10vw 0vw 10vw;
     padding-left: 10vw;
+
 }
 #header{
-    width: 60vw;
     min-height: 10vh;
 }
 #nav{
@@ -25,9 +25,13 @@
     width: 20em;
     margin-left: 5em;
 }
-/*Estilizando a lista de funcionários*/
+/*Estilizando a lista de Produtos Cadastrados e o pointer qnd sobre input radio*/
 #main ul{
     list-style: none;
     text-decoration: underline;
+}
+/*------------------------------------*/
+input[type="radio"], label[for="money"], label[for="credcard"]{
+    cursor:pointer;
 }
 /*------------------------------------*/
