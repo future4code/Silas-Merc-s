@@ -26,3 +26,44 @@
     width: 20em;
     margin-left: 5em;
 }
+/*Estilizando a tabela (lista de histórico de vendas) */
+table{
+    width: 48vw;
+    background-color: rgb(252, 252, 252);
+    border-radius: 14px;
+
+
+}
+
+tr{
+    border-radius: 14px;
+}
+
+th{
+    padding: 1em;
+    background-color: rgb(140, 255, 90);
+    border-radius: 14px;
+
+}
+td{
+    padding: 1.1em;
+    background-color: rgb(242, 242, 242);
+    border-radius: 14px;
+
+}
+
+caption{
+    font-size: 1.2em;
+}
+
+/*-------------------------------------------------- -*/
+/*Estilizando o input data) */
+input[type="date"]{
+    padding: 6px;
+    border-width: 0;
+    border-radius: 14px;
+    background-color: rgb(140, 255, 90);
+
+}
+
+/*-------------------------------------------------- -*/

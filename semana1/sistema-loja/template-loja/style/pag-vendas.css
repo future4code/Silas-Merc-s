@@ -25,9 +25,13 @@
     width: 20em;
     margin-left: 5em;
 }
-/*Estilizando a lista de Produtos Cadastrados*/
+/*Estilizando a lista de Produtos Cadastrados e o pointer qnd sobre input radio*/
 #main ul{
     list-style: none;
     text-decoration: underline;
+}
+/*------------------------------------*/
+input[type="radio"], label[for="money"], label[for="credcard"]{
+    cursor:pointer;
 }
 /*------------------------------------*/
