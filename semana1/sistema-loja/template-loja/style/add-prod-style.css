@@ -4,16 +4,14 @@
     padding:0;
 }
 #container{
-    max-width: 60vw;
+    max-width: 70vw;
     margin: 0vw 10vw 0vw 10vw;
     padding-left: 10vw;
 }
 #header{
-    width: 60vw;
     min-height: 10vh;
 }
 #nav{
-    width: 60vw;
     height: 5vh;
 }
 #main{

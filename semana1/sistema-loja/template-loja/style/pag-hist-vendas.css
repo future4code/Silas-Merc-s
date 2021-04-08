@@ -1,0 +1,28 @@
+@import url("nav-style.css");
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+    min-width: 60vw;
+    margin: 0vw 10vw 0vw 10vw;
+    padding-left: 10vw;
+}
+#header{
+    width: 60vw;
+    min-height: 10vh;
+}
+#nav{
+    height: 5vh;
+}
+#main{
+    margin-top: 30px;
+    padding:5px;
+    max-width: 40vw;
+    min-height: 65vh;
+}
+#footer{
+    margin-top: 30px;
+    width: 20em;
+    margin-left: 5em;
+}

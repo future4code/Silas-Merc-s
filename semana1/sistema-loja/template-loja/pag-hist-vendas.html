@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style/ctrl-style.css" media="all" />
+    <title>Controle de Estoque</title>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h3><img src="img/pizza.png" alt="Pizza"/>Le pizzeria-caf&eacute;</h3>
+        </div>
+        
+        <div id="nav">
+            <a href="index.html">Página Inicial</a>
+            <a href="ctrl-estoque.html">Controle de Estoque</a>
+            <a href="add-produto.html">Adicionar Produto</a>
+            <a href="funcionarios.html">Funcionários</a>
+            <a href="pag-vendas.html">Funcionários</a>
+            <a href="pag-hist-vendas.html">Funcionários</a>
+        </div>
+
+        <div id="main">
+
+            <h2>HISTÓRICO DE VENDAS: 
+                <h4><label for="data">SELECIONE A DATA: </label>
+                    &nbsp;
+                    <input id="data" type="date"></h4>
+            </h2>
+
+            <br>
+            <table cellspacing="20em" cellpading="1.5em" id="tabela">
+                <tr class="titulo">
+                    <th>Horário</th>
+                    <th>Funcionário</th>
+                    <th>Valor (R$)</th>
+                    <th>Forma de Pagamento</th>
+                </tr>
+
+                <tr>
+                    <td>9:30h</td>
+                    <td>Paulo</td>
+                    <td>65,99</td>
+                    <td>Dinheiro</td>
+                </tr>
+
+                <tr>
+                    <td>9:35h</td>
+                    <td>Diana</td>
+                    <td>65,99</td>
+                    <td>Cartão de Crédito</td>
+                </tr>
+
+                <tr>
+                    <td>9:40h</td>
+                    <td>Salomão</td>
+                    <td>25,99</td>
+                    <td>Dinheiro</td>
+                </tr>
+
+                <tr>
+                    <td>10:30h</td>
+                    <td>Arisvaldo</td>
+                    <td>45,99</td>
+                    <td>Cartão de Crédito</td>
+                </tr>
+                
+                <tr>
+                    <td>11:30h</td>
+                    <td>Sabrina</td>
+                    <td>165,00</td>
+                    <td>Cartão de Crédito</td>
+                </tr>
+
+            </table>
+        </div>
+        <div id="footer"><p>Copyright - Todos direitos reservados!</p></div>   
+    </div>
+</body>
+</html>
