@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+header{
+    width: 60vw;
+    min-height: 10vh;
+}
+nav{
+    height: 5vh;
+}
+main{
+    margin-top: 30px;
+    padding:5px;
+    max-width: 40vw;
+    min-height: 65vh;
+}
+footer{
+    margin-top: 30px;
+    width: 20em;
+    margin-left: 5em;
+}
+.footer-icons img{
+    width: 15px;
+    height: 15px;
+}
+/*Estilização do Menu*/
+nav a{
+
+    text-decoration: none;
+    display:inline-block;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: chartreuse;
+    color: cornsilk;
+}
+/*------------------------------*/
