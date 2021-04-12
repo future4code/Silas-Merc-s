@@ -93,7 +93,7 @@ div img {
   **/
 
 div:nth-child(2),
-div:last-child {
+div:last-child, td {
     text-align: center;
 }
 
