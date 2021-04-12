@@ -100,6 +100,7 @@ div:last-child, td {
 
 table {
     width: 60%;
+    margin: 0 auto;
 }
 
 td button {
@@ -145,5 +146,8 @@ td img{
     border-left: none;
     border-right: none;
     border-bottom: 3px solid black;
+}
+.rodape{
+    margin: 10px 0 0 45vw;
 
 }
