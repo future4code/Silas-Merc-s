@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Estilizando o menu*/
+nav{
+    height: 14.5vh;
+    text-align: center;
+    background-color: rgb(240, 250, 250);
+
+}
+.n-img{
+    width: 3.5em;
+    border-radius: 110px;
+    opacity: 0.7;
+    position: relative;
+    left:-24.5vw;
+    top:4px;
+}
+.n-img:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    width: 145px;
+    height: 30px;
+    background-color: rgb(220, 230, 230);
+    color: blue;
+    padding-top: 10px;
+    border-radius: 5px;
+        
+}
+nav a:hover{
+    opacity: 0.8;
+    color: rgb(0, 0, 201);
+}
+nav a:active{
+    color: rgb(0, 0, 201);
+}
+
+/*Estilizando o main*/
+
+main{
+   min-height: 60vh;
+    text-align: center;
+}
+main>h1{
+    font-style: normal;
+    color: blue;
+    text-decoration: overline underline;
+ }
+ #contato label[for="texto"]{
+    margin:2px 15px 0 30px;
+
+ }
+/*Estilizando o footer*/
+
+footer{
+    height: 40vh;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    color: whitesmoke;
+
+}
+footer>img{
+    display: block;
+    border-radius: 70px;
+    width: 90px;
+    height: 90px;
+
+}
+.footer-icons img{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+}
