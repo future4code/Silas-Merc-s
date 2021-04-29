@@ -1,5 +1,5 @@
 
-/* **-------------Exercícios de interpretação de código**
+/*-------------- ***Exercícios de interpretação de código** --------
 
 ---------------------------1
 const bool1 = true
