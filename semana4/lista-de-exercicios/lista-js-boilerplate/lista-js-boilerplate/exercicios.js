@@ -72,8 +72,16 @@ function retornaExpressoesBooleanas() {
 //Exercício 7
 
 function retornaNNumerosPares(n) {
-   // implemente sua lógica aqui
+   let listaNum = [];
+   for(let i=0; i<n*2; i++){
+      if(n[i]%2===0){
+         listaNum.push(n[i]);
+      }
+   }
+   return listaNum;
 }
+//console.log(retornaNNumerosPares(10))
+// DÁ ERRO NÃO SEI O PQ
 
 // Exercício 8
 
