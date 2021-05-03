@@ -99,8 +99,21 @@ function checaTriangulo(a, b, c) {
 // Exercício 9
 
 function comparaDoisNumeros(num1, num2) {
-   // implemente sua lógica aqui
+   let objeto = {};
+   if(num1>num2){
+      objeto.maiorNumero = num1;
+      objeto.maiorDivisivelporMenor = num1%num2===0;
+      objeto.diferenca = num1-num2;
+   }else if(num2>num1){
+      objeto.maiorNumero = num2;
+      objeto.maiorDivisivelporMenor = num2%num1===0;
+      objeto.diferenca = num2-num1;
+   }else{
+      console.log("Escolha números diferentes!");
+   }
+   return objeto;
 }
+//console.log(comparaDoisNumeros(1,2))
 
 // Exercício 10
 
