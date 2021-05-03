@@ -2,34 +2,40 @@
 
 function inverteArray(array) {
   // implemente sua lógica aqui
-
-  //FAREI NESTANTE hehe
 }
 
-//Exercício 2
+//Exercício 2 -- FEITO
 
 function retornaNumerosParesElevadosADois (array) {
-
+   let arrayExerc = [1, 2, 3, 4, 5, 6];
+   let arrayResult = [];
+   for(num of arrayExerc){
+      if(num%2===0){
+         arrayResult.push(num**2);
+      }
+   }
+   return arrayResult;
 }
 //console.log(retornaNumerosParesElevadosADois());  //--- ignore!
 
-//Exercício 3
+//Exercício 3 -- FEITO
 
 function retornaNumerosPares (array) {
+     // implemente sua lógica aqui
 
 }
 //console.log(retornaNumerosParesElevadosADois());  //--- ignore!
 
-//Exercício 4
+//Exercício 4 -- FEITO
 
 function retornaMaiorNumero (array) {
-   
+     // implemente sua lógica aqui
 }
 
-//Exercício 5
+//Exercício 5 -- FEITO
 
 function retornaQuantidadeElementos (array) {
- //  return array.length;
+     // implemente sua lógica aqui
 }
 
 //Exercício 6
