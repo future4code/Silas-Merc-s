@@ -155,8 +155,10 @@ function segundoMaiorEMenor(array) {
 //Exercício 11
 
 function ordenaArray(array) {
-   // implemente sua lógica aqui
+   return array.sort();
 }
+
+//console.log(ordenaArray([4,3,2,1])) DEPOIS EU FAÇO DO OUTRO JEITO! ;)
 
 // Exercício 12
 
