@@ -21,8 +21,14 @@ function retornaNumerosParesElevadosADois (array) {
 //Exercício 3 -- FEITO
 
 function retornaNumerosPares (array) {
-     // implemente sua lógica aqui
-
+   let arrayExerc = [1, 2, 3, 4, 5, 6];
+   let arrayResult = [];
+   for(num of arrayExerc){
+      if(num%2===0){
+         arrayResult.push(num);
+      }
+   }
+   return arrayResult;
 }
 //console.log(retornaNumerosParesElevadosADois());  //--- ignore!
 
